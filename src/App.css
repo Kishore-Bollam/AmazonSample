@@ -1,3 +1,7 @@
+body{
+  margin: 10px;
+  padding: 10px;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +39,127 @@
   to {
     transform: rotate(360deg);
   }
+}
+table{
+  
+  width: 100%;
+}
+thead{
+  background-color:black;
+  color: whitesmoke;
+}
+tbody{
+  background-color: blanchedalmond;
+}
+td{
+  border: 2px solid black;
+  
+}
+.legend{
+  width: 1px;
+  display: inline;
+}
+[data-type = '0']{
+  background-color: green;
+  color: whitesmoke;
+}
+[data-type="1"]{
+  background-color: red;
+  color: aliceblue;
+}
+h1{
+  color: whitesmoke;
+  text-align: center;
+  background-color: #282c34;
+  padding: 0px;
+}
+.courses{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.courses-item{
+  width: 250px;
+  height: 45vh;
+  background-color: #f4f7f8;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+[type="button"]{
+  background-color: #f15353;
+  color: white;
+  font-weight: bold;
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+span{
+  color: #ef4242;
+  font-size: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.blockbuster{
+  background-color: #f8eeee;
+}
+
+.menu{
+  list-style-type: none;
+  background-color: #282c34;
+  margin: 0px;
+  padding: 0px;
+  width: 98.5%;
+  padding: 10px;
+
+}
+.menu li{
+display: inline;
+color: whitesmoke;
+padding: 10px;
+cursor: pointer;
+font-weight: bold;
+position: relative;
+}
+li:hover{
+  background-color: #f15353;
+  color: black;
+  font-weight: bold;
+  border-radius:5px;
+}
+.sub-menu{
+  display: none;
+  position: absolute;
+  background-color: rgb(18, 17, 17);
+  text-align: center;
+  top: 42px;
+  left: 0px;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 5px;
+
+}
+li:hover .sub-menu{
+  display: flex;
+  flex-direction: column;
+}
+.pagination{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  justify-content: center;
+  background-color: hsl(0, 23%, 97%);
+}
+.pagination-items{
+  padding: 10px;
+  margin: 2px;
+  background-color: #282c34;
+  color: whitesmoke;
+  font-weight: bold;
+}
+.pagination-items:hover{
+  background-color: #ef4242;
 }

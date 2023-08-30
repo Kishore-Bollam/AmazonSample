@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onload event</title>
+<!-- <link rel="stylesheet" href="onload.css"> -->
+
+    <script type="text/javascript" src="onload.js"></script>
+</head>
+<body onload="containerLoads()">
+ <h1 class="color-white bg-color-red" id="header">1</h1>
+<input type="button" value="change color to red" onclick="changeColorToRed()">
+<input type="button" value="change color to green" onclick="changeColorToGreen()">
+
+
+ <style>
+    .color-white{
+        color: white;
+    }
+    .bg-color-red{
+        color: whitesmoke;
+        background-color: red;
+    }
+    .bg-color-green{
+        color:aliceblue;
+        background-color: green;
+    }
+ </style>
+</body>
+</html>

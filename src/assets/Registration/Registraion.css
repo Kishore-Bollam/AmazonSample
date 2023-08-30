@@ -1,0 +1,79 @@
+.main{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    box-shadow: 0px 0px 0px 2px  #5b5b5b; 
+    background-color: #fdfdfd;
+   
+
+}
+
+h1{
+    margin-top: 10px;
+    text-align: center;
+    background-color: slategrey;
+
+}
+h1:hover{
+    background-color:#ef4242;
+    color: #ffff;
+    cursor: pointer;
+}
+label{
+    width: 100px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+   
+}
+[type="text"] , [type="email"],[type="date"],[type="number"]{
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+}
+[type="button"],[type="reset"]{
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 100px;
+    cursor: pointer;
+    background-color:slategrey ;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+[type="reset"]:hover{
+    background-color: #ef4242;
+    padding: 9px;
+
+}
+[type="button"]:hover{
+    background-color: #ef4242;
+    padding: 9px;
+}
+sup{
+    color: red;
+}
+.border-red{
+    border: 2px solid red;
+}
+.display-none{
+    display: none;
+}
+.display-block{
+    display: block;
+}
+.text-danger{
+    color: red;
+}
+p{
+ display: inline;
+ margin-left: 150px;
+}
+sup{
+    color: red;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,17 @@
+.pagination{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    justify-content: center;
+}
+li{
+    padding: 10px;
+    margin: 2px;
+    background-color: blueviolet;
+    color: whitesmoke;
+    font-weight: bold;
+}
+li:hover{
+    background-color: rgb(5, 94, 94);
+}

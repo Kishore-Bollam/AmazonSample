@@ -1,0 +1,24 @@
+.main-div{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin: 30px;
+    justify-content: space-between;
+    
+}
+.first-div{
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: aqua;
+    
+}
+.second-div{
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+p ~ h1{
+    background-color: rgb(177, 162, 162);
+}
